@@ -4,7 +4,6 @@ from tabulate import tabulate
 from pymongo.mongo_client import MongoClient
 import pandas as pd
 from sqlalchemy import create_engine, MetaData
-from tabulate import tabulate
 
 census_raw = pd.read_csv("D:\\python workbook\\census_2011.csv")
 
